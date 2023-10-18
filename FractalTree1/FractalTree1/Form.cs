@@ -1,22 +1,24 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Drawing;
+using System.Runtime.InteropServices;
 using System.Windows.Forms;
 
 namespace Fractal
 {
     public partial class Form : System.Windows.Forms.Form
     {
+        public Form()
+        {
+            InitializeComponent();
+            SetCenterScreenMode();
+        }
+
         private Dictionary<int, Color> colors = new Dictionary<int, Color>()
         {
             { 1, Color.DeepPink }, { 2, Color.DarkMagenta }, { 3, Color.HotPink }
         };
         private int colorNum = 1;
-
-        public Form()
-        {
-            InitializeComponent();
-        }
 
         /// <summary>
         /// Метод, который отрисовывает наши ветки
@@ -25,7 +27,6 @@ namespace Fractal
         /// <param name="y">Координата по Y</param>
         /// <param name="len">Длина</param>
         /// <param name="angle">Угол поворота</param>
-
         public void DrawFractal(int x, int y, int len, double angle, PaintEventArgs e)
         {
             Graphics g = e.Graphics;
@@ -52,6 +53,12 @@ namespace Fractal
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
             DrawFractal(panel1.Width/2,0,200,0,e);
+        }
+
+        private void SetCenterScreenMode()
+        {
+            StartPosition = FormStartPosition.CenterScreen;
+            FormBorderStyle = FormBorderStyle.FixedSingle;
         }
     }
 }

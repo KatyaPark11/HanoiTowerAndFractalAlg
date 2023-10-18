@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Runtime.InteropServices;
 using System.Windows.Forms;
 
 namespace Fractal
@@ -13,10 +14,7 @@ namespace Fractal
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Form form = new Form();
-            form.StartPosition = FormStartPosition.CenterScreen;
-            form.WindowState = FormWindowState.Maximized;
-            Application.Run(form);
+            Application.Run(new Form());
         }
     }
 }
