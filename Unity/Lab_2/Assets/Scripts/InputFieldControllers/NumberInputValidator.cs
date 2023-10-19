@@ -24,6 +24,8 @@ namespace Assets.Scripts
             if (string.IsNullOrEmpty(input) || (input.Contains('-') && input.Length == 1))
             {
                 AlgBuildingButton.interactable = false;
+                if (AnimatedObject.activeSelf)
+                    AnimatedObject.SetActive(false);
             }
             else if (int.TryParse(input, out int value) && value < 2 || value > 20)
             {
@@ -35,6 +37,8 @@ namespace Assets.Scripts
             else if (!AlgBuildingButton.interactable)
             {
                 AlgBuildingButton.interactable = true;
+                if (AnimatedObject.activeSelf)
+                    AnimatedObject.SetActive(false);
             }
         }
     }
