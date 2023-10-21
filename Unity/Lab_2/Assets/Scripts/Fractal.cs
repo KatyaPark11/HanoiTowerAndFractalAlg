@@ -9,7 +9,7 @@ namespace Assets.Scripts
 
         public static void DrawTheFractalTree()
         {
-            string applicationPath = "..\\..\\FractalTree1\\FractalTree1\\bin\\Debug\\FractalTree.exe";
+            string applicationPath = "..\\..\\FractalGosperCurve\\FractalGosperCurve\\bin\\Debug\\FractalGosperCurve.exe";
 
             ProcessStartInfo startInfo = new()
             {

@@ -1,0 +1,10 @@
+C:\Users\User\Desktop\Моё\Программы\FractalTree1\FractalTree1\bin\Debug\FractalGosperCurve.exe.config
+C:\Users\User\Desktop\Моё\Программы\FractalTree1\FractalTree1\bin\Debug\FractalGosperCurve.exe
+C:\Users\User\Desktop\Моё\Программы\FractalTree1\FractalTree1\bin\Debug\FractalGosperCurve.pdb
+C:\Users\User\Desktop\Моё\Программы\FractalTree1\FractalTree1\obj\Debug\FractalGosperCurve.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Моё\Программы\FractalTree1\FractalTree1\obj\Debug\Fractal.Form.resources
+C:\Users\User\Desktop\Моё\Программы\FractalTree1\FractalTree1\obj\Debug\FractalGosperCurve.Properties.Resources.resources
+C:\Users\User\Desktop\Моё\Программы\FractalTree1\FractalTree1\obj\Debug\FractalGosperCurve.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Моё\Программы\FractalTree1\FractalTree1\obj\Debug\FractalGosperCurve.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Моё\Программы\FractalTree1\FractalTree1\obj\Debug\FractalGosperCurve.exe
+C:\Users\User\Desktop\Моё\Программы\FractalTree1\FractalTree1\obj\Debug\FractalGosperCurve.pdb
